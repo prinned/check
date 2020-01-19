@@ -221,9 +221,9 @@ function keyPressed(){
 						deletePath(selectedIndex, n);
 						selectedIndex = -1;
 					}
-					r = aStar();
 				}
 			}
+			r = aStar();
 			break;
 	}
 }
